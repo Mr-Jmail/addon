@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-control {
+    margin: 0 auto; 
+    margin-top: 2%;
+    display: block;
+    margin-bottom: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+div{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.container {
+    display: block;
+    padding: 0 50px;
+}

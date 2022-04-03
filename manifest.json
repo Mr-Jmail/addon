@@ -1,0 +1,24 @@
+{
+    "name": "Кастом элементов ВКонтакте",
+    "description": "Меняет название элементов (таких как \"Моя страница\", \"Новости\", \"Мессенджер\", \"Звонки\", \"Друзья\", \"Сообщества\" и т.д) в вк",
+    "version": "1.0",
+    "developer": {
+        "name": "jmail",
+        "url": "https://vk.com/mr.jmail"
+     },
+    "icons": {
+        "16": "./images/16.png",
+        "48": "./images/16.png",
+        "128": "./images/16.png"
+    },
+    "manifest_version": 2,
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": ["https://vk.com/*"],
+            "js": ["script.js", "options.js"], 
+            "run_at": "document_end"
+        }
+    ],
+    "options_page": "settings.html"
+}
